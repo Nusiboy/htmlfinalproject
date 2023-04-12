@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: x-large;
+}
+
+
+.topnav {
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+
+.topnav input[type=text] {
+    padding: 6px;
+    border: none;
+    font-size: 17px;
+
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    font-size: x-large;
+}
+
+p {
+    color: #fb0e0e00;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: rgb(246, 128, 2);
+
+}
+
+.container {
+    animation: mymove 10s infinite ease-in-out;
+}
+
+@keyframes mymove {
+    0% {
+        background-color: rgb(246, 128, 2);
+    }
+
+    25% {
+        background-color: rgb(246, 100, 2);
+    }
+
+    50% {
+        background-color: rgb(196, 26, 14);
+    }
+
+    75% {
+        background-color: rgb(246, 100, 2);
+    }
+
+    100% {
+        background-color: rgb(246, 128, 2);
+    }
+}
+
+.tools {
+    align-items: center;
+    display: flex;
+    margin-top: 60px;
+    justify-content: space-around;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: center;
+    font-style: oblique;
+    flex-wrap: wrap;
+}
+
+button {
+    background-color: #000000;
+    width: 120px;
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    font-size: large;
+}
+
+button:active {
+    background-color: #7a7a7a;
+    width: 120px;
+    color: rgb(0, 0, 0);
+    font-style: normal;
+    font-size: large;
+}
+
+.subtext {
+    text-align: start;
+    font-size: large;
+    padding-bottom: 100px;
+    margin-top: 50px;
+
+}
+
+.footer {
+    background-color: rgb(246, 128, 2);
+}
+
+.footer {
+    animation: mymove 10s infinite ease-in-out;
+}
+
+@keyframes mymove {
+    0% {
+        background-color: rgb(246, 128, 2);
+    }
+
+    25% {
+        background-color: rgb(246, 100, 2);
+    }
+
+    50% {
+        background-color: rgb(196, 26, 14);
+    }
+
+    75% {
+        background-color: rgb(246, 100, 2);
+    }
+
+    100% {
+        background-color: rgb(246, 128, 2);
+    }
+}
+
+
+#social-media {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.top-footer {
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.low-footer {
+    text-align: center;
+    padding-bottom: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
