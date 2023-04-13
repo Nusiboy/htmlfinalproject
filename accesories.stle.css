@@ -76,6 +76,7 @@ button{
     color: rgb(255, 255, 255);
     font-style: normal;
     font-size:large ;
+    border-radius: 20px;
 }
 
 button:active{
@@ -90,7 +91,7 @@ font-size:large ;
 
 
 .tools{
-    align-items: center;
+    align-items:baseline;
     display: flex;
     margin-top: 60px;
     justify-content:space-evenly;
@@ -102,15 +103,22 @@ font-size:large ;
 }
 
 .subtext {
-    text-align: center ;
+    text-align: center;
     font-size: large;
-    padding-bottom: 100px;
     margin-top: 50px;
-
+    background-color: silver;
+    background-clip: content-box;
+    width: 30vw;
+    margin: auto;
+    border-style:groove;
 }
-
+.subtext ul{
+        list-style-type: none;
+      
+}
 .footer {
     background-color: rgb(246, 128, 2);
+    width: 100%;
 }
 
 .footer{

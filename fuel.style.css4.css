@@ -88,7 +88,7 @@ p {
 }
 
 .tools {
-    align-items: center;
+    align-items:baseline;
     justify-content: space-around;
     margin-left: 40px;
     margin-right: 40px;
@@ -98,12 +98,15 @@ p {
 }
 
 
+
+
 button {
     background-color: #000000;
     width: 120px;
     color: rgb(255, 255, 255);
     font-style: normal;
     font-size: large;
+    border-radius: 20px;
 }
 
 button:active {
@@ -114,12 +117,20 @@ button:active {
     font-size: large;
 }
 
+
 .subtext {
-    text-align:inherit ;
+    text-align: center;
     font-size: large;
-    padding-bottom: 100px;
     margin-top: 50px;
-    display: block;
+    background-color: silver;
+    background-clip: content-box;
+    width: 30vw;
+    margin: auto;
+    border-style:groove;
+}
+.subtext ul{
+        list-style-type: none;
+      
 }
 
 .footer {
