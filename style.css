@@ -24,7 +24,7 @@
 #Electric {
     text-align: center;
     font-size: 500%;
-    margin-top: 80vh;
+    margin-top: 40vh;
     font-family: Tahoma;
     text-decoration: underline;
 }
@@ -52,7 +52,7 @@
 
 .row {
     display: flex;
-    margin-top: 5vh;
+    margin-top: 10vh;
     justify-content: center;
     margin-bottom: 300px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -101,3 +101,24 @@ h2{
     text-decoration: underline;
 }
 
+#lighter-arc{
+    display: flex;
+}
+
+#lighter-arc:hover {
+    animation-name: lighter-arc;
+    animation-duration: 2s;
+}
+@keyframes lighter-arc { 
+    0% {
+      transform: scale(1, 1);
+    }
+    50% {
+      transform: scale(1.1, 1.1);
+    }
+    100% {
+      transform: scale(1, 1);
+    }
+}
+
+    

@@ -4,88 +4,6 @@
     box-sizing: border-box;
 }
 
-#navbar {
-    display: flex;
-    align-items: center;
-    padding: 50px;
-    font-style: italic;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: x-large;
-}
-
-
-.topnav {
-    overflow: hidden;
-    margin-top: 20px;
-}
-
-
-.topnav input[type=text] {
-    padding: 6px;
-    border: none;
-    font-size: 17px;
-
-}
-
-nav {
-    flex: 1;
-    text-align: right;
-}
-
-nav ul {
-    display: inline-block;
-    list-style-type: none;
-}
-
-nav ul li {
-    display: inline-block;
-    margin-right: 20px;
-}
-
-a {
-    text-decoration: none;
-    color: #000000;
-    font-size: x-large;
-}
-
-p {
-    color: #fb0e0e00;
-}
-
-.container {
-    width: 100%;
-    margin: auto;
-    padding-left: 25px;
-    padding-right: 25px;
-    background-color: rgb(246, 128, 2);
-
-}
-
-.container {
-    animation: mymove 10s infinite ease-in-out;
-}
-
-@keyframes mymove {
-    0% {
-        background-color: rgb(246, 128, 2);
-    }
-
-    25% {
-        background-color: rgb(246, 100, 2);
-    }
-
-    50% {
-        background-color: rgb(196, 26, 14);
-    }
-
-    75% {
-        background-color: rgb(246, 100, 2);
-    }
-
-    100% {
-        background-color: rgb(246, 128, 2);
-    }
-}
 
 .tools {
     margin-top: 10vh;
@@ -94,8 +12,9 @@ p {
     text-align: center;
     font-style: oblique;
     flex-wrap: wrap;
-    flex-direction: row;
+    display: flex;
 }
+
 
 button {
     background-color: #000000;
@@ -119,13 +38,12 @@ button:active {
 }
 
 .subtext {
-    text-align: center;
+    text-align: start;
     font-size: large;
     margin-top: 50px;
     background-color: silver;
     background-clip: content-box;
-    width: 30vw;
-    margin: auto;
+    width: 25vw;
     border-style:groove;
 }
 .subtext ul{
@@ -133,52 +51,3 @@ button:active {
       
 }
 
-.footer {
-    background-color: rgb(246, 128, 2);
-}
-
-.footer {
-    animation: mymove 10s infinite ease-in-out;
-}
-
-@keyframes mymove {
-    0% {
-        background-color: rgb(246, 128, 2);
-    }
-
-    25% {
-        background-color: rgb(246, 100, 2);
-    }
-
-    50% {
-        background-color: rgb(196, 26, 14);
-    }
-
-    75% {
-        background-color: rgb(246, 100, 2);
-    }
-
-    100% {
-        background-color: rgb(246, 128, 2);
-    }
-}
-
-
-#social-media {
-    display: flex;
-    justify-content: space-evenly;
-
-}
-
-.top-footer {
-    text-align: center;
-    padding-top: 30px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
-}
-
-.low-footer {
-    text-align: center;
-    padding-bottom: 30px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
