@@ -20,11 +20,16 @@
     left: 0;
 }
 
+@media screen and (max-width: 900px){
+    #Electric {
+        padding-top: 25vh;
+    }
+    }
 
 #Electric {
     text-align: center;
-    font-size: 500%;
-    margin-top: 40vh;
+    font-size: 475%;
+    margin-top: 38vh;
     font-family: Tahoma;
     text-decoration: underline;
 }
